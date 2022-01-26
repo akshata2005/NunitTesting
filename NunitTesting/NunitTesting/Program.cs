@@ -31,6 +31,9 @@ namespace NunitTesting
                     TempratureConversion temperaturConversion = new TempratureConversion();
                     temperaturConversion.ReadInput();
                     break;
+                case 4:
+                    MonthlyPayment.ReadInput();
+                    break;
                 default:
                     break;
             }
