@@ -27,6 +27,10 @@ namespace NunitTesting
                     Console.WriteLine("Finding day of a particular date");
                     WeekDay.FindingDay();
                     break;
+                case 3:
+                    TempratureConversion temperaturConversion = new TempratureConversion();
+                    temperaturConversion.ReadInput();
+                    break;
                 default:
                     break;
             }
