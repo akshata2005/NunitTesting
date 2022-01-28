@@ -43,8 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MonthlyPayment.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TempratureConversion.cs" />
     <Compile Include="VendingMachine.cs" />
     <Compile Include="WeekDay.cs" />
   </ItemGroup>

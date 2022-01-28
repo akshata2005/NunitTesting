@@ -34,6 +34,10 @@ namespace NunitTesting
                 case 4:
                     MonthlyPayment.ReadInput();
                     break;
+                case 5:
+                    DecimalToBinary decimalToBinary = new DecimalToBinary();
+                    decimalToBinary.ReadInput();
+                    break;
                 default:
                     break;
             }
